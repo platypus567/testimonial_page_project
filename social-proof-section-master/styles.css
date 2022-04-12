@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700;800;900&display=swap');
+body{
+    font-family: 'League Spartan', sans-serif;
+}
+#maincontainer{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h1{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+#leadtext{
+    color: hsl(303, 10%, 53%);
+    text-align: center;
+    
+    font-weight: 400;
+}
+.reviewcontainer{
+    border: 1px solid hsl(300, 24%, 96%);
+    background-color: hsl(300, 24%, 96%);
+    text-align: center;
+    font-size: 15px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
