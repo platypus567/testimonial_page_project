@@ -13,6 +13,10 @@ h1{
     font-weight: 700;
     margin-bottom: 50px !important;
     margin-top: 50px !important;
+    font-size: xx-large;
+    padding: 0 30px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 #leadtext{
     color: hsl(303, 10%, 53%);
