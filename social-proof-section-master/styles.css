@@ -29,3 +29,19 @@ h1{
     color: hsl(300, 43%, 22%);
     font-weight: 700;
 }
+.pfp{
+    border-radius: 50px;
+    width: 50px;
+}
+.reviewbox{
+    background-color: hsl(300, 43%, 22%);
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 15px;
+    
+}
+.reviewparagraph{
+    color: hsl(300, 24%, 96%);
+    font-weight: 400 !important;
+    font-size: 15px !important;
+}
