@@ -89,3 +89,87 @@ h1{
 #cont2{
     background-image: url(https://raw.githubusercontent.com/platypus567/testimonial_page_project/36740e240f6d9340ad044f6d5c222de256864fca/social-proof-section-master/images/bg-pattern-bottom-mobile.svg);
 }
+
+
+@media (min-width: 1300px){
+
+    h1{
+        font-size: 50px;
+        font-weight: 700;
+        width: 400px;
+        
+    }
+    #cont1{
+        display: flex;
+        flex-direction: row;
+        background-image: url(https://raw.githubusercontent.com/platypus567/testimonial_page_project/81655d5e98fd85138350d3ab09cbea5a68eea93e/social-proof-section-master/images/bg-pattern-top-desktop.svg);
+    }
+    #cont2{
+        display: flex;
+        flex-direction: row;
+        background-image: url(https://raw.githubusercontent.com/platypus567/testimonial_page_project/81655d5e98fd85138350d3ab09cbea5a68eea93e/social-proof-section-master/images/bg-pattern-bottom-desktop.svg);
+        
+    }
+    .textcont{
+        display: flex;
+        flex-direction: column;
+        width: 5000px;
+    }
+    .reviewcontainer{
+        height: 50px;
+        width: 500px;
+        
+        
+        
+    }
+    .allstars{
+        display: flex;
+        flex-direction: column;
+
+
+    }
+    #stars1{
+        margin-top: 50px;
+        margin-right: 100px;
+       
+
+    }
+    #stars2{
+        margin-top: 10px;
+        margin-left: 25px;
+        margin-right: 25px;
+        padding: 0;
+    }
+    #stars3{
+        margin-top: 10px;
+    }
+    .stars{
+        margin-top: 17px;
+        display: inline;
+        transform: translate(30px,0);
+        
+        
+    }
+    .rated{
+        display: inline;
+        padding-top: 5px;
+        
+    }
+    .fullrev{
+        padding-top: 13px;
+    }
+    #irene{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 25px;
+    }
+    #anne{
+        margin-top: 45px;
+    }
+    .reviewbox{
+        border-radius: 10px;
+    }
+
+
+
+}
