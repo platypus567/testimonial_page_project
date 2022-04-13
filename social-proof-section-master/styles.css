@@ -11,12 +11,15 @@ body{
 h1{
     color: hsl(300, 43%, 22%);
     font-weight: 700;
+    margin-bottom: 50px !important;
+    margin-top: 50px !important;
 }
 #leadtext{
     color: hsl(303, 10%, 53%);
     text-align: center;
     
     font-weight: 400;
+    margin-bottom: 50px !important;
 }
 .reviewcontainer{
     border: 1px solid hsl(300, 24%, 96%);
