@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700;800;900&display=swap');
 body{
-    font-family: 'League Spartan', sans-serif;
+    font-family: 'League Spartan', sans-serif !important;
 }
 #maincontainer{
     display: flex;
@@ -20,6 +20,9 @@ h1{
     
     font-weight: 400;
     margin-bottom: 50px !important;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 0 20px;
 }
 .reviewcontainer{
     border: 1px solid hsl(300, 24%, 96%);
@@ -28,20 +31,57 @@ h1{
     font-size: 15px;
     color: hsl(300, 43%, 22%);
     font-weight: 700;
+    border-radius: 10px;
 }
 .pfp{
     border-radius: 50px;
     width: 50px;
+    height: 50px;
 }
 .reviewbox{
     background-color: hsl(300, 43%, 22%);
     margin-bottom: 20px;
     border-radius: 15px;
-    padding: 15px;
+    padding: 15px 35px 15px 35px;
+    
+}
+.rated{
+    
+    transform: translate(0,10px);
+}
+.name{
+    color: hsl(300, 24%, 96%);
+    margin: 0;
+    
+    
+}
+.verifiedbuyer{
+    color: hsl(333, 80%, 67%);
+    
+    font-weight: 400;
     
 }
 .reviewparagraph{
     color: hsl(300, 24%, 96%);
     font-weight: 400 !important;
     font-size: 15px !important;
+    padding-bottom: 20px;
+}
+.picbox{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 1px;
+    
+}
+.idbox{
+    display: flex;
+    flex-direction: column;
+    
+}
+#cont1{
+    background-image: url(./images/bg-pattern-top-mobile.svg);
+}
+#cont2{
+    background-image: url(./images/bg-pattern-bottom-mobile.svg);
 }
